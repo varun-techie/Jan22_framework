@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78303" started-at="2021-11-13T02:30:03 IST" finished-at="2021-11-13T02:31:21 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78303" started-at="2021-11-13T02:30:03 IST" finished-at="2021-11-13T02:31:21 IST">
+      <class name="testcases.Loginclass">
+        <test-method status="PASS" signature="logger()[pri:0, instance:testcases.Loginclass@23fe1d71]" name="logger" is-config="true" duration-ms="37" started-at="2021-11-13T02:30:03 IST" finished-at="2021-11-13T02:30:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+        <test-method status="PASS" signature="report()[pri:0, instance:testcases.Loginclass@23fe1d71]" name="report" is-config="true" duration-ms="56" started-at="2021-11-13T02:30:03 IST" finished-at="2021-11-13T02:30:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="fourthcase(java.util.Map)[pri:0, instance:testcases.Loginclass@23fe1d71]" name="fourthcase" duration-ms="22112" started-at="2021-11-13T02:30:03 IST" data-provider="readexcel" finished-at="2021-11-13T02:30:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{actualtext=AUTHENTICATION, password=test, url=http://www.automationpractice.com/, email=seleniumaimore@gmail.com, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthcase -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:testcases.Loginclass@23fe1d71]" name="endTest" is-config="true" duration-ms="300" started-at="2021-11-13T02:30:25 IST" finished-at="2021-11-13T02:30:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fourthcase status=SUCCESS method=Loginclass.fourthcase(java.util.Map)[pri:0, instance:testcases.Loginclass@23fe1d71] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="fourthcase(java.util.Map)[pri:0, instance:testcases.Loginclass@23fe1d71]" name="fourthcase" duration-ms="17056" started-at="2021-11-13T02:30:25 IST" data-provider="readexcel" finished-at="2021-11-13T02:30:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{actualtext=AUTHENTICATION, password=test, url=http://www.automationpractice.com/, email=seleniumaimore@gmail.com, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthcase -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:testcases.Loginclass@23fe1d71]" name="endTest" is-config="true" duration-ms="197" started-at="2021-11-13T02:30:43 IST" finished-at="2021-11-13T02:30:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fourthcase status=SUCCESS method=Loginclass.fourthcase(java.util.Map)[pri:0, instance:testcases.Loginclass@23fe1d71] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="thirdcase(java.util.Map)[pri:0, instance:testcases.Loginclass@23fe1d71]" name="thirdcase" duration-ms="20176" started-at="2021-11-13T02:30:43 IST" data-provider="readexcel" finished-at="2021-11-13T02:31:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{actualtext=AUTHENTICATION, password=test, url=http://www.automationpractice.com/, email=seleniumaimore@gmail.com, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdcase -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:testcases.Loginclass@23fe1d71]" name="endTest" is-config="true" duration-ms="283" started-at="2021-11-13T02:31:03 IST" finished-at="2021-11-13T02:31:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=thirdcase status=SUCCESS method=Loginclass.thirdcase(java.util.Map)[pri:0, instance:testcases.Loginclass@23fe1d71] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="thirdcase(java.util.Map)[pri:0, instance:testcases.Loginclass@23fe1d71]" name="thirdcase" duration-ms="16893" started-at="2021-11-13T02:31:03 IST" data-provider="readexcel" finished-at="2021-11-13T02:31:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{actualtext=AUTHENTICATION, password=test, url=http://www.automationpractice.com/, email=seleniumaimore@gmail.com, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdcase -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:testcases.Loginclass@23fe1d71]" name="endTest" is-config="true" duration-ms="295" started-at="2021-11-13T02:31:20 IST" finished-at="2021-11-13T02:31:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=thirdcase status=SUCCESS method=Loginclass.thirdcase(java.util.Map)[pri:0, instance:testcases.Loginclass@23fe1d71] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.Loginclass@23fe1d71]" name="tearDown" is-config="true" duration-ms="480" started-at="2021-11-13T02:31:20 IST" finished-at="2021-11-13T02:31:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Loginclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

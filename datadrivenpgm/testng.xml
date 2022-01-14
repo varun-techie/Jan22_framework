@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="smoke">
+
+	<test name="login">
+		<classes>
+			<class name="testcases.Loginclass"/>
+					
+	</classes>
+	</test>
+
+</suite>
